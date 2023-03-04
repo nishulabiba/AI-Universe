@@ -47,6 +47,6 @@ const disPlay= features =>{
 //Adding modals
 
 
-loadDetails();
+loadFeatures();
 
 
