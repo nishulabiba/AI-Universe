@@ -13,7 +13,7 @@ const disPlay= features =>{
         const featureDiv = document.createElement('div');
         featureDiv.classList.add('col');
         featureDiv.innerHTML = `
-            <div class="card h-100 w-75 p-3 "> 
+            <div class="card h-100 p-3 "> 
                 <img src="${f.image}" class="card-img-top" alt="...">
                 <div class="card-body"> 
                   <h5 class="card-title">Features</h5>
