@@ -14,12 +14,14 @@ const disPlay= features =>{
         featureDiv.classList.add('col');
         featureDiv.innerHTML = `
             <div class="card h-100 p-3 "> 
-                <img src="${f.image}" class="card-img-top" alt="...">
+            
+            <img src="${f.image}" class="card-img-top" alt="...">
+          
                 <div class="card-body"> 
                   <h5 class="card-title">Features</h5>
-                  <p class="card-text">1. ${f.features[0]}</p>
-                  <p class="card-text">2. ${f.features[1]}</p>
-                  <p class="card-text">3. ${f.features[2]}</p>
+                  <p class="card-text text-secondary-emphasis">1. ${f.features[0]}</p>
+                  <p class="card-text text-secondary-emphasis">2. ${f.features[1]}</p>
+                  <p class="card-text text-secondary-emphasis">3. ${f.features[2]}</p>
                 </div>
                 <div class="card-footer">
                     <h5 class="card-title">${f.name}</h5>
@@ -29,7 +31,7 @@ const disPlay= features =>{
                     <img src="./images/Frame.png" class="" alt="...">
                     <small class="">${f.published_in}</small>
                     </div>
-                    <img src="./images/frame2.png" class="ms-5 ps-5" alt="...">
+                    <button type="image" class="btn btn-primary bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./images/frame2.png"  alt="..."> </button>
                     </div>
 
                 </div>
