@@ -41,7 +41,12 @@ const disPlay= features =>{
 
         
     });
+
 }
-    loadFeatures();
+
+//Adding modals
+
+
+loadDetails();
 
 
